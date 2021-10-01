@@ -28,15 +28,17 @@
 #
 # 6) У вас есть переменная my_str, тип - str. Если ее длинна меньше 5, то допишите в конец строки себя же. Пример: было - "qwer", стало - "qwerqwer". Если длинна не меньше 5, то оставить строку как есть.
 # my_str = "Alex"
-# if len(my_str) < 5:
-#     print(my_str * 2)
+# if len(my_str) >= 5:
+#     print(my_str)
 # else:
+#     my_str = my_str * 2
 #     print(my_str)
 #
 #
 # 7) У вас есть переменная my_str, тип - str. Если ее длинна меньше 5, то допишите в конец строки перевернутую себя же. Пример: было - "qwer", стало - "qwerrewq". Если длинна не меньше 5, то оставить строку как есть.
-# my_str = "Alexey"
+# my_str = "Alex"
 # if len(my_str) < 5:
-#     print(my_str + my_str[::-1])
+#     my_str = my_str + my_str[::-1]
+#     print(my_str)
 # else:
 #     print(my_str)
