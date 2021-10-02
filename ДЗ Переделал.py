@@ -10,8 +10,9 @@
 # print(new_value)
 #
 # 3) У вас есть переменная value, тип - int. Написать тернарный оператор для переменной new_value по такому правилу: если value меньше 100, то new_value равно True, в противном случае - False
-# value = 0
-# value if value >= 100 else print(bool(value))
+# value = 111
+# value = value if value >= 100 else value
+# print(bool(value))
 #
 #
 # 4) У вас есть переменная my_str, тип - str. Заменить в my_str все маленькие буквы на большие.
