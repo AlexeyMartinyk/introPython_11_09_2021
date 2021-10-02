@@ -92,11 +92,26 @@
 # my_tuple = (100, *my_tuple[1:])
 # print(id(my_tuple))
 
-list_1 = [1, 2]
-list_2 = [3, 4]
-new_list = [list_1.copy(), list_2[:]] # срез это всегда копия
-print(new_list)
+# list_1 = [1, 2]
+# list_2 = [3, 4]
+# new_list = [list_1.copy(), list_2[:]] # срез это всегда копия
+# print(new_list)
+#
+# list_1[0] = 100
+# list_2[0] = 300
+# print(new_list, list_1)
 
-list_1[0] = 100
-list_2[0] = 300
-print(new_list, list_1)
+# new_list = list("new_tuple")
+# print(new_list)
+# new_str = "$".join(new_list)
+# print(new_str)
+
+filename = "lesson3.py.txt"
+# # filename = filename.replace(".txt", "")
+# filename_parts = filename.split(".")
+# filename = ".".join(filename_parts[:-1])
+
+filename = filename.rsplit(".", 1)
+filename = filename [0]
+
+print(filename)
