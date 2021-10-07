@@ -20,7 +20,7 @@
 #     res = sum(my_list[-2: None])
 #     print(res)
 #
-#3/
+#4.
 # my_string_1 = "0123456789"
 # my_string_2 = my_string_1
 # my_list = []
