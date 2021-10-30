@@ -91,12 +91,11 @@
 # 4###################################################################
 # import random
 # import string
-#
+# 
 # names = ["John", "Pieter", "Sam", "Jim"]
 # domains = ["com", "org", "net", "ua"]
-#
-# def new_email():
+# 
+# def new_email(names, domains):
 #     return str(random.choice(names)) + '.' + str(random.randint(100, 999)) + '@' + str(''.join(random.choice(string.ascii_lowercase) for i in range(random.randint(5, 7)))) + '.' + str(random.choice(domains))
-# email = str(new_email())
-# print(email)
-
+# email = str(new_email(names, domains))
+# print('4)', email)
